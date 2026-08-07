@@ -1,0 +1,4 @@
+interface:
+  display_name: "Querit Search"
+  short_description: "Research the live web with Querit sources"
+  default_prompt: "Use $querit-search to research this topic and return a concise, source-backed answer."

@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv
+
+# Local secrets and tool caches
+.env
+.env.*
+!.env.example
+.uv-cache/
+.pytest_cache/
+.ruff_cache/
+.basedpyright/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~

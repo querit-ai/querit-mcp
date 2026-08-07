@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Querit documentation
+    url: https://www.querit.ai/en/docs/overview/quickstart
+    about: Read the Querit API documentation before opening a usage question.
