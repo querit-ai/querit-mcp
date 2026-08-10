@@ -187,8 +187,9 @@ Claude Code accepts custom headers for remote HTTP MCP servers:
 
 ```bash
 claude mcp remove --scope user querit
-claude mcp add --transport http --scope user \
+claude mcp add --scope user \
   --header "Authorization: Bearer <YOUR_QUERIT_API_KEY>" \
+  --transport http \
   querit https://mcp.querit.ai/mcp
 ```
 
