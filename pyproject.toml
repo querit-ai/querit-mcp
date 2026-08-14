@@ -21,9 +21,9 @@ classifiers = [
 dependencies = [
     "httpx>=0.28.1",
     "mcp==2.0.0",
-    "pydantic-settings>=2.14.2",
+    "pydantic-settings>=2.15.0",
     "redis>=8.1.0",
-    "uvicorn>=0.52.0",
+    "uvicorn>=0.52.1",
 ]
 
 [project.urls]
@@ -37,16 +37,16 @@ querit-mcp = "querit_mcp.__main__:main"
 
 [build-system]
 requires = ["hatchling"]
-build-backend = "hatchling.build"
+build-backend = "hatchling*"
 
 [dependency-groups]
 dev = [
     "basedpyright>=1.39.9",
-    "hatchling>=1.31.0",
+    "hatchling>=1.32.0",
     "pytest>=9.1.1",
     "pytest-asyncio>=1.4.0",
     "respx>=0.23.1",
-    "ruff>=0.16.1",
+    "ruff>=0.16.2",
 ]
 
 [tool.pytest.ini_options]
