@@ -20,7 +20,7 @@ classifiers = [
 ]
 dependencies = [
     "httpx>=0.28.1",
-    "mcp==2.0.0",
+    "mcp==2.3.0",
     "pydantic-settings>=2.14.2",
     "redis>=8.1.0",
     "uvicorn>=0.52.0",
